@@ -1,42 +1,57 @@
 # Practicum Project
 
-<div class="tab", id="FamilyTab">
+## [Family](javascript:openTab('FamilyTab'))
+> Place quotes here
+{: .tab }
+{: #FamilyTab }
 
-## Family
-</div>
+## [Agency](javascript:openTab('AgencyTab'))
+> Place quotes here
+{: .tab }
+{: #AgencyTab }
 
-<div class="tab", id="AgencyTab">
+## [Atonement](javascript:openTab('AtonementTab'))
+> Place quotes here
+{: .tab }
+{: #AtonementTab }
 
-## Agency
-</div>
+## [Addiction](javascript:openTab('AddictionTab'))
+> Place quotes here
+{: .tab }
+{: #AddictionTab }
 
-<div class="tab", id="AtonementTab">
+## [Temple](javascript:openTab('TempleTab'))
+> Place quotes here
+{: .tab }
+{: #TempleTab }
 
-## Atonement
-</div>
+## [Family History](javascript:openTab('FamilyHistoryTab'))
+> Place quotes here
+{: .tab }
+{: #FamilyHistoryTab }
 
-<div class="tab", id="AddictionTab">
+## [Missionary Work](javascript:openTab('MissionaryWorkTab'))
+> Place quotes here
+{: .tab }
+{: #MissionaryWorkTab }
 
-## Addiction
-</div>
+## [Education](javascript:openTab('EducationTab'))
+> Place quotes here
+{: .tab }
+{: #EducationTab }
 
-<div class="tab", id="TempleTab">
+<script>
+closeTabs();
+function closeTabs() {
+	var i;
+	var x = document.getElementsByClassName("tab");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+}
 
-## Temple
-</div>
-
-<div class="tab", id="FamilyHistoryTab">
-
-## Family History
-</div>
-
-<div class="tab", id="MissionaryWorkTab">
-
-## Missionary Work
-</div>
-
-<div class="tab", id="EducationTab">
-
-## Education
-</div>
-
+function openTab(tabName) {
+	closeTabs();
+	document.getElementById(tabName).style.display = "block";
+}
+</script>
