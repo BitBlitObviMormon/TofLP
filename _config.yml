@@ -3,3 +3,6 @@ description: Hacker is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+repository: bitblitobvimormon/TofLP
+url: "https://bitblitobvimormon.github.io"
+baseurl: "/TofLP"
